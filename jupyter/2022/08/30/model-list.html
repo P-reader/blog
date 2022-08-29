@@ -1,0 +1,1915 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="twitter:card" content="summary_large_image" /><!-- Begin Jekyll SEO tag v2.8.0 -->
+<title>Timm model list Notebook | iDeal</title>
+<meta name="generator" content="Jekyll v4.1.1" />
+<meta property="og:title" content="Timm model list Notebook" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="쥬피터 노트북 업로드 테스트" />
+<meta property="og:description" content="쥬피터 노트북 업로드 테스트" />
+<link rel="canonical" href="https://p-reader.github.io/blog/jupyter/2022/08/30/model-list.html" />
+<meta property="og:url" content="https://p-reader.github.io/blog/jupyter/2022/08/30/model-list.html" />
+<meta property="og:site_name" content="iDeal" />
+<meta property="og:image" content="https://p-reader.github.io/blog/images/chart-preview.png" />
+<meta property="og:type" content="article" />
+<meta property="article:published_time" content="2022-08-30T00:00:00-05:00" />
+<meta name="twitter:card" content="summary_large_image" />
+<meta property="twitter:image" content="https://p-reader.github.io/blog/images/chart-preview.png" />
+<meta property="twitter:title" content="Timm model list Notebook" />
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2022-08-30T00:00:00-05:00","datePublished":"2022-08-30T00:00:00-05:00","description":"쥬피터 노트북 업로드 테스트","headline":"Timm model list Notebook","image":"https://p-reader.github.io/blog/images/chart-preview.png","mainEntityOfPage":{"@type":"WebPage","@id":"https://p-reader.github.io/blog/jupyter/2022/08/30/model-list.html"},"url":"https://p-reader.github.io/blog/jupyter/2022/08/30/model-list.html"}</script>
+<!-- End Jekyll SEO tag -->
+<link rel="stylesheet" href="/blog/assets/css/style.css"><link type="application/atom+xml" rel="alternate" href="https://p-reader.github.io/blog/feed.xml" title="iDeal" /><link rel="shortcut icon" type="image/x-icon" href="/blog/images/favicon.ico"><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Primer/15.2.0/primer.css" integrity="sha512-xTz2ys4coGAOz8vuV1NcQBkgVmKhsSEtjbqyMJbBHRplFuvKIUo6xhLHpAyPt9mfR6twHJgn9OgVLuqOvjeBhg==" crossorigin="anonymous" />
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css" integrity="sha512-1PKOgIY59xJ8Co8+NE6FZ+LOAZKjy+KY8iq0G4B3CyeY6wYHN3yt9PW0XpSriVlkMXe40PTKnXrLnZ9+fkDaog==" crossorigin="anonymous" />
+
+<script>
+function wrap_img(fn) {
+    if (document.attachEvent ? document.readyState === "complete" : document.readyState !== "loading") {
+        var elements = document.querySelectorAll(".post img");
+        Array.prototype.forEach.call(elements, function(el, i) {
+            if (el.getAttribute("title") && (el.className != "emoji")) {
+                const caption = document.createElement('figcaption');
+                var node = document.createTextNode(el.getAttribute("title"));
+                caption.appendChild(node);
+                const wrapper = document.createElement('figure');
+                wrapper.className = 'image';
+                el.parentNode.insertBefore(wrapper, el);
+                el.parentNode.removeChild(el);
+                wrapper.appendChild(el);
+                wrapper.appendChild(caption);
+            }
+        });
+    } else { document.addEventListener('DOMContentLoaded', fn); }
+}
+window.onload = wrap_img;
+</script>
+
+<script>
+    document.addEventListener("DOMContentLoaded", function(){
+    // add link icon to anchor tags
+    var elem = document.querySelectorAll(".anchor-link")
+    elem.forEach(e => (e.innerHTML = '<i class="fas fa-link fa-xs"></i>'));
+    });
+</script>
+</head>
+<body><header class="site-header">
+
+  <div class="wrapper"><a class="site-title" rel="author" href="/blog/">iDeal</a><nav class="site-nav">
+        <input type="checkbox" id="nav-trigger" class="nav-trigger" />
+        <label for="nav-trigger">
+          <span class="menu-icon">
+            <svg viewBox="0 0 18 15" width="18px" height="15px">
+              <path d="M18,1.484c0,0.82-0.665,1.484-1.484,1.484H1.484C0.665,2.969,0,2.304,0,1.484l0,0C0,0.665,0.665,0,1.484,0 h15.032C17.335,0,18,0.665,18,1.484L18,1.484z M18,7.516C18,8.335,17.335,9,16.516,9H1.484C0.665,9,0,8.335,0,7.516l0,0 c0-0.82,0.665-1.484,1.484-1.484h15.032C17.335,6.031,18,6.696,18,7.516L18,7.516z M18,13.516C18,14.335,17.335,15,16.516,15H1.484 C0.665,15,0,14.335,0,13.516l0,0c0-0.82,0.665-1.483,1.484-1.483h15.032C17.335,12.031,18,12.695,18,13.516L18,13.516z"/>
+            </svg>
+          </span>
+        </label>
+
+        <div class="trigger"><a class="page-link" href="/blog/about/">About Me</a><a class="page-link" href="/blog/search/">Search</a><a class="page-link" href="/blog/categories/">Tags</a></div>
+      </nav></div>
+</header>
+<main class="page-content" aria-label="Content">
+      <div class="wrapper">
+        <article class="post h-entry" itemscope itemtype="http://schema.org/BlogPosting">
+
+  <header class="post-header">
+    <h1 class="post-title p-name" itemprop="name headline">Timm model list Notebook</h1><p class="page-description">쥬피터 노트북 업로드 테스트</p><p class="post-meta post-meta-title"><time class="dt-published" datetime="2022-08-30T00:00:00-05:00" itemprop="datePublished">
+        Aug 30, 2022
+      </time>
+       • <span class="read-time" title="Estimated read time">
+    
+    
+      8 min read
+    
+</span></p>
+
+    
+      <p class="category-tags"><i class="fas fa-tags category-tags-icon"></i></i> 
+      
+        <a class="category-tags-link" href="/blog/categories/#jupyter">jupyter</a>
+        
+      
+      </p>
+    
+
+    
+      
+        <div class="pb-5 d-flex flex-justify-center">
+          <div class="px-2">
+
+    <a href="https://github.com/P-reader/blog/tree/master/_notebooks/2022-08-30-model list.ipynb" role="button" target="_blank">
+<img class="notebook-badge-image" src="/blog/assets/badges/github.svg" alt="View On GitHub">
+    </a>
+</div>
+
+          <div class="px-2">
+    <a href="https://mybinder.org/v2/gh/P-reader/blog/master?filepath=_notebooks%2F2022-08-30-model+list.ipynb" target="_blank">
+        <img class="notebook-badge-image" src="/blog/assets/badges/binder.svg" alt="Open In Binder"/>
+    </a>
+</div>
+
+          <div class="px-2">
+    <a href="https://colab.research.google.com/github/P-reader/blog/blob/master/_notebooks/2022-08-30-model list.ipynb" target="_blank">
+        <img class="notebook-badge-image" src="/blog/assets/badges/colab.svg" alt="Open In Colab"/>
+    </a>
+</div>
+          <div class="px-2">
+  <a href="https://deepnote.com/launch?url=https%3A%2F%2Fgithub.com%2FP-reader%2Fblog%2Fblob%2Fmaster%2F_notebooks%2F2022-08-30-model+list.ipynb" target="_blank">
+      <img class="notebook-badge-image" src="/blog/assets/badges/deepnote.svg" alt="Launch in Deepnote"/>
+  </a>
+</div>
+
+        </div>
+      </header>
+
+  <div class="post-content e-content" itemprop="articleBody">
+    <ul id="toc" class="section-nav">
+<li class="toc-entry toc-h1"><a href="#'beit_base_patch16_224',">&#39;beit_base_patch16_224&#39;, </a></li>
+<li class="toc-entry toc-h1"><a href="#'beit_large_patch16_224',">&#39;beit_large_patch16_224&#39;, </a></li>
+<li class="toc-entry toc-h1"><a href="#'darknet53',">&#39;darknet53&#39;, </a></li>
+<li class="toc-entry toc-h1"><a href="#'densenet121',">&#39;densenet121&#39;, </a></li>
+<li class="toc-entry toc-h1"><a href="#'densenet161',">&#39;densenet161&#39;, </a></li>
+<li class="toc-entry toc-h1"><a href="#'densenet169',">&#39;densenet169&#39;, </a></li>
+<li class="toc-entry toc-h1"><a href="#'densenet201',">&#39;densenet201&#39;, </a></li>
+<li class="toc-entry toc-h1"><a href="#'efficientnet_b0',">&#39;efficientnet_b0&#39;, </a></li>
+<li class="toc-entry toc-h1"><a href="#'efficientnet_b1',">&#39;efficientnet_b1&#39;, </a></li>
+<li class="toc-entry toc-h1"><a href="#'efficientnet_b2',">&#39;efficientnet_b2&#39;, </a></li>
+<li class="toc-entry toc-h1"><a href="#'efficientnet_b3',">&#39;efficientnet_b3&#39;, </a></li>
+<li class="toc-entry toc-h1"><a href="#'efficientnet_b4',">&#39;efficientnet_b4&#39;, </a></li>
+<li class="toc-entry toc-h1"><a href="#'mobilenetv2_050',">&#39;mobilenetv2_050&#39;, </a></li>
+<li class="toc-entry toc-h1"><a href="#'mobilenetv2_100',">&#39;mobilenetv2_100&#39;, </a></li>
+<li class="toc-entry toc-h1"><a href="#'mobilenetv2_140',">&#39;mobilenetv2_140&#39;, </a></li>
+<li class="toc-entry toc-h1"><a href="#'mobilenetv3_large_100',">&#39;mobilenetv3_large_100&#39;, </a></li>
+<li class="toc-entry toc-h1"><a href="#'mobilenetv3_small_050',">&#39;mobilenetv3_small_050&#39;, </a></li>
+<li class="toc-entry toc-h1"><a href="#'mobilenetv3_small_100',">&#39;mobilenetv3_small_100&#39;, </a></li>
+<li class="toc-entry toc-h1"><a href="#'mobilevitv2_050',">&#39;mobilevitv2_050&#39;, </a></li>
+<li class="toc-entry toc-h1"><a href="#'mobilevitv2_100',">&#39;mobilevitv2_100&#39;, </a></li>
+<li class="toc-entry toc-h1"><a href="#'mobilevitv2_150',">&#39;mobilevitv2_150&#39;, </a></li>
+<li class="toc-entry toc-h1"><a href="#'mobilevitv2_200',">&#39;mobilevitv2_200&#39;, </a></li>
+<li class="toc-entry toc-h1"><a href="#'resnet18',">&#39;resnet18&#39;, </a></li>
+<li class="toc-entry toc-h1"><a href="#'resnet34',">&#39;resnet34&#39;, </a></li>
+<li class="toc-entry toc-h1"><a href="#'resnet50',">&#39;resnet50&#39;, </a></li>
+<li class="toc-entry toc-h1"><a href="#'resnet101',">&#39;resnet101&#39;, </a></li>
+<li class="toc-entry toc-h1"><a href="#'resnet152',">&#39;resnet152&#39;, </a></li>
+<li class="toc-entry toc-h1"><a href="#'swin_base_patch4_window7_224',">&#39;swin_base_patch4_window7_224&#39;, </a></li>
+<li class="toc-entry toc-h1"><a href="#'swin_large_patch4_window7_224',">&#39;swin_large_patch4_window7_224&#39;, </a></li>
+<li class="toc-entry toc-h1"><a href="#'swin_small_patch4_window7_224',">&#39;swin_small_patch4_window7_224&#39;, </a></li>
+<li class="toc-entry toc-h1"><a href="#'swin_tiny_patch4_window7_224',">&#39;swin_tiny_patch4_window7_224&#39;, </a></li>
+<li class="toc-entry toc-h1"><a href="#'tinynet_a',">&#39;tinynet_a&#39;, </a></li>
+<li class="toc-entry toc-h1"><a href="#'tinynet_b',">&#39;tinynet_b&#39;, </a></li>
+<li class="toc-entry toc-h1"><a href="#'tinynet_c',">&#39;tinynet_c&#39;, </a></li>
+<li class="toc-entry toc-h1"><a href="#'tinynet_d',">&#39;tinynet_d&#39;, </a></li>
+<li class="toc-entry toc-h1"><a href="#'tinynet_e',">&#39;tinynet_e&#39;, </a></li>
+<li class="toc-entry toc-h1"><a href="#'vgg11',">&#39;vgg11&#39;, </a></li>
+<li class="toc-entry toc-h1"><a href="#'vgg13',">&#39;vgg13&#39;, </a></li>
+<li class="toc-entry toc-h1"><a href="#'vgg16',">&#39;vgg16&#39;, </a></li>
+<li class="toc-entry toc-h1"><a href="#'vgg19',">&#39;vgg19&#39;, </a></li>
+<li class="toc-entry toc-h1"><a href="#'vit_base_patch16_224',">&#39;vit_base_patch16_224&#39;, </a></li>
+<li class="toc-entry toc-h1"><a href="#'vit_base_patch32_224',">&#39;vit_base_patch32_224&#39;, </a></li>
+<li class="toc-entry toc-h1"><a href="#'vit_large_patch16_224',">&#39;vit_large_patch16_224&#39;, </a></li>
+<li class="toc-entry toc-h1"><a href="#'vit_relpos_base_patch16_224',">&#39;vit_relpos_base_patch16_224&#39;, </a></li>
+<li class="toc-entry toc-h1"><a href="#'vit_small_patch16_224',">&#39;vit_small_patch16_224&#39;, </a></li>
+<li class="toc-entry toc-h1"><a href="#'vit_small_patch32_224',">&#39;vit_small_patch32_224&#39;, </a></li>
+<li class="toc-entry toc-h1"><a href="#'vit_tiny_patch16_224',">&#39;vit_tiny_patch16_224&#39;, </a></li>
+<li class="toc-entry toc-h1"><a href="#'xception',">&#39;xception&#39;, </a></li>
+<li class="toc-entry toc-h1"><a href="#'xception41',">&#39;xception41&#39;, </a></li>
+<li class="toc-entry toc-h1"><a href="#'xception65',">&#39;xception65&#39;, </a></li>
+<li class="toc-entry toc-h1"><a href="#'xception71',">&#39;xception71&#39;, </a></li>
+</ul><!--
+#################################################
+### THIS FILE WAS AUTOGENERATED! DO NOT EDIT! ###
+#################################################
+# file to edit: _notebooks/2022-08-30-model list.ipynb
+-->
+
+<div class="container" id="notebook-container">
+        
+    
+    
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython2"><pre><span></span><span class="kn">import</span> <span class="nn">timm</span>
+
+<span class="n">all_densenet_models</span> <span class="o">=</span> <span class="n">timm</span><span class="o">.</span><span class="n">list_models</span><span class="p">(</span><span class="n">pretrained</span><span class="o">=</span><span class="kc">True</span><span class="p">)</span>
+<span class="n">all_densenet_models</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+<div class="output_wrapper">
+<div class="output">
+
+<div class="output_area">
+
+
+
+<div class="output_text output_subarea output_execute_result">
+<pre>['adv_inception_v3',
+ 'bat_resnext26ts',
+ 'beit_base_patch16_224',
+ 'beit_base_patch16_224_in22k',
+ 'beit_base_patch16_384',
+ 'beit_large_patch16_224',
+ 'beit_large_patch16_224_in22k',
+ 'beit_large_patch16_384',
+ 'beit_large_patch16_512',
+ 'botnet26t_256',
+ 'cait_m36_384',
+ 'cait_m48_448',
+ 'cait_s24_224',
+ 'cait_s24_384',
+ 'cait_s36_384',
+ 'cait_xs24_384',
+ 'cait_xxs24_224',
+ 'cait_xxs24_384',
+ 'cait_xxs36_224',
+ 'cait_xxs36_384',
+ 'coat_lite_mini',
+ 'coat_lite_small',
+ 'coat_lite_tiny',
+ 'coat_mini',
+ 'coat_tiny',
+ 'convit_base',
+ 'convit_small',
+ 'convit_tiny',
+ 'convmixer_768_32',
+ 'convmixer_1024_20_ks9_p14',
+ 'convmixer_1536_20',
+ 'convnext_base',
+ 'convnext_base_384_in22ft1k',
+ 'convnext_base_in22ft1k',
+ 'convnext_base_in22k',
+ 'convnext_large',
+ 'convnext_large_384_in22ft1k',
+ 'convnext_large_in22ft1k',
+ 'convnext_large_in22k',
+ 'convnext_nano',
+ 'convnext_small',
+ 'convnext_small_384_in22ft1k',
+ 'convnext_small_in22ft1k',
+ 'convnext_small_in22k',
+ 'convnext_tiny',
+ 'convnext_tiny_384_in22ft1k',
+ 'convnext_tiny_hnf',
+ 'convnext_tiny_in22ft1k',
+ 'convnext_tiny_in22k',
+ 'convnext_xlarge_384_in22ft1k',
+ 'convnext_xlarge_in22ft1k',
+ 'convnext_xlarge_in22k',
+ 'crossvit_9_240',
+ 'crossvit_9_dagger_240',
+ 'crossvit_15_240',
+ 'crossvit_15_dagger_240',
+ 'crossvit_15_dagger_408',
+ 'crossvit_18_240',
+ 'crossvit_18_dagger_240',
+ 'crossvit_18_dagger_408',
+ 'crossvit_base_240',
+ 'crossvit_small_240',
+ 'crossvit_tiny_240',
+ 'cs3darknet_focus_l',
+ 'cs3darknet_focus_m',
+ 'cs3darknet_l',
+ 'cs3darknet_m',
+ 'cs3darknet_x',
+ 'cs3edgenet_x',
+ 'cs3se_edgenet_x',
+ 'cs3sedarknet_l',
+ 'cs3sedarknet_x',
+ 'cspdarknet53',
+ 'cspresnet50',
+ 'cspresnext50',
+ 'darknet53',
+ 'darknetaa53',
+ 'deit3_base_patch16_224',
+ 'deit3_base_patch16_224_in21ft1k',
+ 'deit3_base_patch16_384',
+ 'deit3_base_patch16_384_in21ft1k',
+ 'deit3_huge_patch14_224',
+ 'deit3_huge_patch14_224_in21ft1k',
+ 'deit3_large_patch16_224',
+ 'deit3_large_patch16_224_in21ft1k',
+ 'deit3_large_patch16_384',
+ 'deit3_large_patch16_384_in21ft1k',
+ 'deit3_small_patch16_224',
+ 'deit3_small_patch16_224_in21ft1k',
+ 'deit3_small_patch16_384',
+ 'deit3_small_patch16_384_in21ft1k',
+ 'deit_base_distilled_patch16_224',
+ 'deit_base_distilled_patch16_384',
+ 'deit_base_patch16_224',
+ 'deit_base_patch16_384',
+ 'deit_small_distilled_patch16_224',
+ 'deit_small_patch16_224',
+ 'deit_tiny_distilled_patch16_224',
+ 'deit_tiny_patch16_224',
+ 'densenet121',
+ 'densenet161',
+ 'densenet169',
+ 'densenet201',
+ 'densenetblur121d',
+ 'dla34',
+ 'dla46_c',
+ 'dla46x_c',
+ 'dla60',
+ 'dla60_res2net',
+ 'dla60_res2next',
+ 'dla60x',
+ 'dla60x_c',
+ 'dla102',
+ 'dla102x',
+ 'dla102x2',
+ 'dla169',
+ 'dm_nfnet_f0',
+ 'dm_nfnet_f1',
+ 'dm_nfnet_f2',
+ 'dm_nfnet_f3',
+ 'dm_nfnet_f4',
+ 'dm_nfnet_f5',
+ 'dm_nfnet_f6',
+ 'dpn68',
+ 'dpn68b',
+ 'dpn92',
+ 'dpn98',
+ 'dpn107',
+ 'dpn131',
+ 'eca_botnext26ts_256',
+ 'eca_halonext26ts',
+ 'eca_nfnet_l0',
+ 'eca_nfnet_l1',
+ 'eca_nfnet_l2',
+ 'eca_resnet33ts',
+ 'eca_resnext26ts',
+ 'ecaresnet26t',
+ 'ecaresnet50d',
+ 'ecaresnet50d_pruned',
+ 'ecaresnet50t',
+ 'ecaresnet101d',
+ 'ecaresnet101d_pruned',
+ 'ecaresnet269d',
+ 'ecaresnetlight',
+ 'edgenext_small',
+ 'edgenext_small_rw',
+ 'edgenext_x_small',
+ 'edgenext_xx_small',
+ 'efficientnet_b0',
+ 'efficientnet_b1',
+ 'efficientnet_b1_pruned',
+ 'efficientnet_b2',
+ 'efficientnet_b2_pruned',
+ 'efficientnet_b3',
+ 'efficientnet_b3_pruned',
+ 'efficientnet_b4',
+ 'efficientnet_el',
+ 'efficientnet_el_pruned',
+ 'efficientnet_em',
+ 'efficientnet_es',
+ 'efficientnet_es_pruned',
+ 'efficientnet_lite0',
+ 'efficientnetv2_rw_m',
+ 'efficientnetv2_rw_s',
+ 'efficientnetv2_rw_t',
+ 'ens_adv_inception_resnet_v2',
+ 'ese_vovnet19b_dw',
+ 'ese_vovnet39b',
+ 'fbnetc_100',
+ 'fbnetv3_b',
+ 'fbnetv3_d',
+ 'fbnetv3_g',
+ 'gc_efficientnetv2_rw_t',
+ 'gcresnet33ts',
+ 'gcresnet50t',
+ 'gcresnext26ts',
+ 'gcresnext50ts',
+ 'gernet_l',
+ 'gernet_m',
+ 'gernet_s',
+ 'ghostnet_100',
+ 'gluon_inception_v3',
+ 'gluon_resnet18_v1b',
+ 'gluon_resnet34_v1b',
+ 'gluon_resnet50_v1b',
+ 'gluon_resnet50_v1c',
+ 'gluon_resnet50_v1d',
+ 'gluon_resnet50_v1s',
+ 'gluon_resnet101_v1b',
+ 'gluon_resnet101_v1c',
+ 'gluon_resnet101_v1d',
+ 'gluon_resnet101_v1s',
+ 'gluon_resnet152_v1b',
+ 'gluon_resnet152_v1c',
+ 'gluon_resnet152_v1d',
+ 'gluon_resnet152_v1s',
+ 'gluon_resnext50_32x4d',
+ 'gluon_resnext101_32x4d',
+ 'gluon_resnext101_64x4d',
+ 'gluon_senet154',
+ 'gluon_seresnext50_32x4d',
+ 'gluon_seresnext101_32x4d',
+ 'gluon_seresnext101_64x4d',
+ 'gluon_xception65',
+ 'gmixer_24_224',
+ 'gmlp_s16_224',
+ 'halo2botnet50ts_256',
+ 'halonet26t',
+ 'halonet50ts',
+ 'haloregnetz_b',
+ 'hardcorenas_a',
+ 'hardcorenas_b',
+ 'hardcorenas_c',
+ 'hardcorenas_d',
+ 'hardcorenas_e',
+ 'hardcorenas_f',
+ 'hrnet_w18',
+ 'hrnet_w18_small',
+ 'hrnet_w18_small_v2',
+ 'hrnet_w30',
+ 'hrnet_w32',
+ 'hrnet_w40',
+ 'hrnet_w44',
+ 'hrnet_w48',
+ 'hrnet_w64',
+ 'ig_resnext101_32x8d',
+ 'ig_resnext101_32x16d',
+ 'ig_resnext101_32x32d',
+ 'ig_resnext101_32x48d',
+ 'inception_resnet_v2',
+ 'inception_v3',
+ 'inception_v4',
+ 'jx_nest_base',
+ 'jx_nest_small',
+ 'jx_nest_tiny',
+ 'lambda_resnet26rpt_256',
+ 'lambda_resnet26t',
+ 'lambda_resnet50ts',
+ 'lamhalobotnet50ts_256',
+ 'lcnet_050',
+ 'lcnet_075',
+ 'lcnet_100',
+ 'legacy_senet154',
+ 'legacy_seresnet18',
+ 'legacy_seresnet34',
+ 'legacy_seresnet50',
+ 'legacy_seresnet101',
+ 'legacy_seresnet152',
+ 'legacy_seresnext26_32x4d',
+ 'legacy_seresnext50_32x4d',
+ 'legacy_seresnext101_32x4d',
+ 'levit_128',
+ 'levit_128s',
+ 'levit_192',
+ 'levit_256',
+ 'levit_384',
+ 'mixer_b16_224',
+ 'mixer_b16_224_in21k',
+ 'mixer_b16_224_miil',
+ 'mixer_b16_224_miil_in21k',
+ 'mixer_l16_224',
+ 'mixer_l16_224_in21k',
+ 'mixnet_l',
+ 'mixnet_m',
+ 'mixnet_s',
+ 'mixnet_xl',
+ 'mnasnet_100',
+ 'mnasnet_small',
+ 'mobilenetv2_050',
+ 'mobilenetv2_100',
+ 'mobilenetv2_110d',
+ 'mobilenetv2_120d',
+ 'mobilenetv2_140',
+ 'mobilenetv3_large_100',
+ 'mobilenetv3_large_100_miil',
+ 'mobilenetv3_large_100_miil_in21k',
+ 'mobilenetv3_rw',
+ 'mobilenetv3_small_050',
+ 'mobilenetv3_small_075',
+ 'mobilenetv3_small_100',
+ 'mobilevit_s',
+ 'mobilevit_xs',
+ 'mobilevit_xxs',
+ 'mobilevitv2_050',
+ 'mobilevitv2_075',
+ 'mobilevitv2_100',
+ 'mobilevitv2_125',
+ 'mobilevitv2_150',
+ 'mobilevitv2_150_384_in22ft1k',
+ 'mobilevitv2_150_in22ft1k',
+ 'mobilevitv2_175',
+ 'mobilevitv2_175_384_in22ft1k',
+ 'mobilevitv2_175_in22ft1k',
+ 'mobilevitv2_200',
+ 'mobilevitv2_200_384_in22ft1k',
+ 'mobilevitv2_200_in22ft1k',
+ 'nasnetalarge',
+ 'nf_regnet_b1',
+ 'nf_resnet50',
+ 'nfnet_l0',
+ 'pit_b_224',
+ 'pit_b_distilled_224',
+ 'pit_s_224',
+ 'pit_s_distilled_224',
+ 'pit_ti_224',
+ 'pit_ti_distilled_224',
+ 'pit_xs_224',
+ 'pit_xs_distilled_224',
+ 'pnasnet5large',
+ 'poolformer_m36',
+ 'poolformer_m48',
+ 'poolformer_s12',
+ 'poolformer_s24',
+ 'poolformer_s36',
+ 'regnetv_040',
+ 'regnetv_064',
+ 'regnetx_002',
+ 'regnetx_004',
+ 'regnetx_006',
+ 'regnetx_008',
+ 'regnetx_016',
+ 'regnetx_032',
+ 'regnetx_040',
+ 'regnetx_064',
+ 'regnetx_080',
+ 'regnetx_120',
+ 'regnetx_160',
+ 'regnetx_320',
+ 'regnety_002',
+ 'regnety_004',
+ 'regnety_006',
+ 'regnety_008',
+ 'regnety_016',
+ 'regnety_032',
+ 'regnety_040',
+ 'regnety_064',
+ 'regnety_080',
+ 'regnety_120',
+ 'regnety_160',
+ 'regnety_320',
+ 'regnetz_040',
+ 'regnetz_040h',
+ 'regnetz_b16',
+ 'regnetz_c16',
+ 'regnetz_c16_evos',
+ 'regnetz_d8',
+ 'regnetz_d8_evos',
+ 'regnetz_d32',
+ 'regnetz_e8',
+ 'repvgg_a2',
+ 'repvgg_b0',
+ 'repvgg_b1',
+ 'repvgg_b1g4',
+ 'repvgg_b2',
+ 'repvgg_b2g4',
+ 'repvgg_b3',
+ 'repvgg_b3g4',
+ 'res2net50_14w_8s',
+ 'res2net50_26w_4s',
+ 'res2net50_26w_6s',
+ 'res2net50_26w_8s',
+ 'res2net50_48w_2s',
+ 'res2net101_26w_4s',
+ 'res2next50',
+ 'resmlp_12_224',
+ 'resmlp_12_224_dino',
+ 'resmlp_12_distilled_224',
+ 'resmlp_24_224',
+ 'resmlp_24_224_dino',
+ 'resmlp_24_distilled_224',
+ 'resmlp_36_224',
+ 'resmlp_36_distilled_224',
+ 'resmlp_big_24_224',
+ 'resmlp_big_24_224_in22ft1k',
+ 'resmlp_big_24_distilled_224',
+ 'resnest14d',
+ 'resnest26d',
+ 'resnest50d',
+ 'resnest50d_1s4x24d',
+ 'resnest50d_4s2x40d',
+ 'resnest101e',
+ 'resnest200e',
+ 'resnest269e',
+ 'resnet10t',
+ 'resnet14t',
+ 'resnet18',
+ 'resnet18d',
+ 'resnet26',
+ 'resnet26d',
+ 'resnet26t',
+ 'resnet32ts',
+ 'resnet33ts',
+ 'resnet34',
+ 'resnet34d',
+ 'resnet50',
+ 'resnet50_gn',
+ 'resnet50d',
+ 'resnet51q',
+ 'resnet61q',
+ 'resnet101',
+ 'resnet101d',
+ 'resnet152',
+ 'resnet152d',
+ 'resnet200d',
+ 'resnetaa50',
+ 'resnetblur50',
+ 'resnetrs50',
+ 'resnetrs101',
+ 'resnetrs152',
+ 'resnetrs200',
+ 'resnetrs270',
+ 'resnetrs350',
+ 'resnetrs420',
+ 'resnetv2_50',
+ 'resnetv2_50d_evos',
+ 'resnetv2_50d_gn',
+ 'resnetv2_50x1_bit_distilled',
+ 'resnetv2_50x1_bitm',
+ 'resnetv2_50x1_bitm_in21k',
+ 'resnetv2_50x3_bitm',
+ 'resnetv2_50x3_bitm_in21k',
+ 'resnetv2_101',
+ 'resnetv2_101x1_bitm',
+ 'resnetv2_101x1_bitm_in21k',
+ 'resnetv2_101x3_bitm',
+ 'resnetv2_101x3_bitm_in21k',
+ 'resnetv2_152x2_bit_teacher',
+ 'resnetv2_152x2_bit_teacher_384',
+ 'resnetv2_152x2_bitm',
+ 'resnetv2_152x2_bitm_in21k',
+ 'resnetv2_152x4_bitm',
+ 'resnetv2_152x4_bitm_in21k',
+ 'resnext26ts',
+ 'resnext50_32x4d',
+ 'resnext50d_32x4d',
+ 'resnext101_32x8d',
+ 'resnext101_64x4d',
+ 'rexnet_100',
+ 'rexnet_130',
+ 'rexnet_150',
+ 'rexnet_200',
+ 'sebotnet33ts_256',
+ 'sehalonet33ts',
+ 'selecsls42b',
+ 'selecsls60',
+ 'selecsls60b',
+ 'semnasnet_075',
+ 'semnasnet_100',
+ 'sequencer2d_l',
+ 'sequencer2d_m',
+ 'sequencer2d_s',
+ 'seresnet33ts',
+ 'seresnet50',
+ 'seresnet152d',
+ 'seresnext26d_32x4d',
+ 'seresnext26t_32x4d',
+ 'seresnext26ts',
+ 'seresnext50_32x4d',
+ 'seresnext101_32x8d',
+ 'seresnext101d_32x8d',
+ 'seresnextaa101d_32x8d',
+ 'skresnet18',
+ 'skresnet34',
+ 'skresnext50_32x4d',
+ 'spnasnet_100',
+ 'ssl_resnet18',
+ 'ssl_resnet50',
+ 'ssl_resnext50_32x4d',
+ 'ssl_resnext101_32x4d',
+ 'ssl_resnext101_32x8d',
+ 'ssl_resnext101_32x16d',
+ 'swin_base_patch4_window7_224',
+ 'swin_base_patch4_window7_224_in22k',
+ 'swin_base_patch4_window12_384',
+ 'swin_base_patch4_window12_384_in22k',
+ 'swin_large_patch4_window7_224',
+ 'swin_large_patch4_window7_224_in22k',
+ 'swin_large_patch4_window12_384',
+ 'swin_large_patch4_window12_384_in22k',
+ 'swin_s3_base_224',
+ 'swin_s3_small_224',
+ 'swin_s3_tiny_224',
+ 'swin_small_patch4_window7_224',
+ 'swin_tiny_patch4_window7_224',
+ 'swinv2_base_window8_256',
+ 'swinv2_base_window12_192_22k',
+ 'swinv2_base_window12to16_192to256_22kft1k',
+ 'swinv2_base_window12to24_192to384_22kft1k',
+ 'swinv2_base_window16_256',
+ 'swinv2_cr_small_224',
+ 'swinv2_cr_small_ns_224',
+ 'swinv2_cr_tiny_ns_224',
+ 'swinv2_large_window12_192_22k',
+ 'swinv2_large_window12to16_192to256_22kft1k',
+ 'swinv2_large_window12to24_192to384_22kft1k',
+ 'swinv2_small_window8_256',
+ 'swinv2_small_window16_256',
+ 'swinv2_tiny_window8_256',
+ 'swinv2_tiny_window16_256',
+ 'swsl_resnet18',
+ 'swsl_resnet50',
+ 'swsl_resnext50_32x4d',
+ 'swsl_resnext101_32x4d',
+ 'swsl_resnext101_32x8d',
+ 'swsl_resnext101_32x16d',
+ 'tf_efficientnet_b0',
+ 'tf_efficientnet_b0_ap',
+ 'tf_efficientnet_b0_ns',
+ 'tf_efficientnet_b1',
+ 'tf_efficientnet_b1_ap',
+ 'tf_efficientnet_b1_ns',
+ 'tf_efficientnet_b2',
+ 'tf_efficientnet_b2_ap',
+ 'tf_efficientnet_b2_ns',
+ 'tf_efficientnet_b3',
+ 'tf_efficientnet_b3_ap',
+ 'tf_efficientnet_b3_ns',
+ 'tf_efficientnet_b4',
+ 'tf_efficientnet_b4_ap',
+ 'tf_efficientnet_b4_ns',
+ 'tf_efficientnet_b5',
+ 'tf_efficientnet_b5_ap',
+ 'tf_efficientnet_b5_ns',
+ 'tf_efficientnet_b6',
+ 'tf_efficientnet_b6_ap',
+ 'tf_efficientnet_b6_ns',
+ 'tf_efficientnet_b7',
+ 'tf_efficientnet_b7_ap',
+ 'tf_efficientnet_b7_ns',
+ 'tf_efficientnet_b8',
+ 'tf_efficientnet_b8_ap',
+ 'tf_efficientnet_cc_b0_4e',
+ 'tf_efficientnet_cc_b0_8e',
+ 'tf_efficientnet_cc_b1_8e',
+ 'tf_efficientnet_el',
+ 'tf_efficientnet_em',
+ 'tf_efficientnet_es',
+ 'tf_efficientnet_l2_ns',
+ 'tf_efficientnet_l2_ns_475',
+ 'tf_efficientnet_lite0',
+ 'tf_efficientnet_lite1',
+ 'tf_efficientnet_lite2',
+ 'tf_efficientnet_lite3',
+ 'tf_efficientnet_lite4',
+ 'tf_efficientnetv2_b0',
+ 'tf_efficientnetv2_b1',
+ 'tf_efficientnetv2_b2',
+ 'tf_efficientnetv2_b3',
+ 'tf_efficientnetv2_l',
+ 'tf_efficientnetv2_l_in21ft1k',
+ 'tf_efficientnetv2_l_in21k',
+ 'tf_efficientnetv2_m',
+ 'tf_efficientnetv2_m_in21ft1k',
+ 'tf_efficientnetv2_m_in21k',
+ 'tf_efficientnetv2_s',
+ 'tf_efficientnetv2_s_in21ft1k',
+ 'tf_efficientnetv2_s_in21k',
+ 'tf_efficientnetv2_xl_in21ft1k',
+ 'tf_efficientnetv2_xl_in21k',
+ 'tf_inception_v3',
+ 'tf_mixnet_l',
+ 'tf_mixnet_m',
+ 'tf_mixnet_s',
+ 'tf_mobilenetv3_large_075',
+ 'tf_mobilenetv3_large_100',
+ 'tf_mobilenetv3_large_minimal_100',
+ 'tf_mobilenetv3_small_075',
+ 'tf_mobilenetv3_small_100',
+ 'tf_mobilenetv3_small_minimal_100',
+ 'tinynet_a',
+ 'tinynet_b',
+ 'tinynet_c',
+ 'tinynet_d',
+ 'tinynet_e',
+ 'tnt_s_patch16_224',
+ 'tresnet_l',
+ 'tresnet_l_448',
+ 'tresnet_m',
+ 'tresnet_m_448',
+ 'tresnet_m_miil_in21k',
+ 'tresnet_xl',
+ 'tresnet_xl_448',
+ 'tv_densenet121',
+ 'tv_resnet34',
+ 'tv_resnet50',
+ 'tv_resnet101',
+ 'tv_resnet152',
+ 'tv_resnext50_32x4d',
+ 'twins_pcpvt_base',
+ 'twins_pcpvt_large',
+ 'twins_pcpvt_small',
+ 'twins_svt_base',
+ 'twins_svt_large',
+ 'twins_svt_small',
+ 'vgg11',
+ 'vgg11_bn',
+ 'vgg13',
+ 'vgg13_bn',
+ 'vgg16',
+ 'vgg16_bn',
+ 'vgg19',
+ 'vgg19_bn',
+ 'visformer_small',
+ 'vit_base_patch8_224',
+ 'vit_base_patch8_224_dino',
+ 'vit_base_patch8_224_in21k',
+ 'vit_base_patch16_224',
+ 'vit_base_patch16_224_dino',
+ 'vit_base_patch16_224_in21k',
+ 'vit_base_patch16_224_miil',
+ 'vit_base_patch16_224_miil_in21k',
+ 'vit_base_patch16_224_sam',
+ 'vit_base_patch16_384',
+ 'vit_base_patch16_rpn_224',
+ 'vit_base_patch32_224',
+ 'vit_base_patch32_224_in21k',
+ 'vit_base_patch32_224_sam',
+ 'vit_base_patch32_384',
+ 'vit_base_r50_s16_224_in21k',
+ 'vit_base_r50_s16_384',
+ 'vit_huge_patch14_224_in21k',
+ 'vit_large_patch16_224',
+ 'vit_large_patch16_224_in21k',
+ 'vit_large_patch16_384',
+ 'vit_large_patch32_224_in21k',
+ 'vit_large_patch32_384',
+ 'vit_large_r50_s32_224',
+ 'vit_large_r50_s32_224_in21k',
+ 'vit_large_r50_s32_384',
+ 'vit_relpos_base_patch16_224',
+ 'vit_relpos_base_patch16_clsgap_224',
+ 'vit_relpos_base_patch32_plus_rpn_256',
+ 'vit_relpos_medium_patch16_224',
+ 'vit_relpos_medium_patch16_cls_224',
+ 'vit_relpos_medium_patch16_rpn_224',
+ 'vit_relpos_small_patch16_224',
+ 'vit_small_patch8_224_dino',
+ 'vit_small_patch16_224',
+ 'vit_small_patch16_224_dino',
+ 'vit_small_patch16_224_in21k',
+ 'vit_small_patch16_384',
+ 'vit_small_patch32_224',
+ 'vit_small_patch32_224_in21k',
+ 'vit_small_patch32_384',
+ 'vit_small_r26_s32_224',
+ 'vit_small_r26_s32_224_in21k',
+ 'vit_small_r26_s32_384',
+ 'vit_srelpos_medium_patch16_224',
+ 'vit_srelpos_small_patch16_224',
+ 'vit_tiny_patch16_224',
+ 'vit_tiny_patch16_224_in21k',
+ 'vit_tiny_patch16_384',
+ 'vit_tiny_r_s16_p8_224',
+ 'vit_tiny_r_s16_p8_224_in21k',
+ 'vit_tiny_r_s16_p8_384',
+ 'volo_d1_224',
+ 'volo_d1_384',
+ 'volo_d2_224',
+ 'volo_d2_384',
+ 'volo_d3_224',
+ 'volo_d3_448',
+ 'volo_d4_224',
+ 'volo_d4_448',
+ 'volo_d5_224',
+ 'volo_d5_448',
+ 'volo_d5_512',
+ 'wide_resnet50_2',
+ 'wide_resnet101_2',
+ 'xception',
+ 'xception41',
+ 'xception41p',
+ 'xception65',
+ 'xception65p',
+ 'xception71',
+ 'xcit_large_24_p8_224',
+ 'xcit_large_24_p8_224_dist',
+ 'xcit_large_24_p8_384_dist',
+ 'xcit_large_24_p16_224',
+ 'xcit_large_24_p16_224_dist',
+ 'xcit_large_24_p16_384_dist',
+ 'xcit_medium_24_p8_224',
+ 'xcit_medium_24_p8_224_dist',
+ 'xcit_medium_24_p8_384_dist',
+ 'xcit_medium_24_p16_224',
+ 'xcit_medium_24_p16_224_dist',
+ 'xcit_medium_24_p16_384_dist',
+ 'xcit_nano_12_p8_224',
+ 'xcit_nano_12_p8_224_dist',
+ 'xcit_nano_12_p8_384_dist',
+ 'xcit_nano_12_p16_224',
+ 'xcit_nano_12_p16_224_dist',
+ 'xcit_nano_12_p16_384_dist',
+ 'xcit_small_12_p8_224',
+ 'xcit_small_12_p8_224_dist',
+ 'xcit_small_12_p8_384_dist',
+ 'xcit_small_12_p16_224',
+ 'xcit_small_12_p16_224_dist',
+ 'xcit_small_12_p16_384_dist',
+ 'xcit_small_24_p8_224',
+ 'xcit_small_24_p8_224_dist',
+ 'xcit_small_24_p8_384_dist',
+ 'xcit_small_24_p16_224',
+ 'xcit_small_24_p16_224_dist',
+ 'xcit_small_24_p16_384_dist',
+ 'xcit_tiny_12_p8_224',
+ 'xcit_tiny_12_p8_224_dist',
+ 'xcit_tiny_12_p8_384_dist',
+ 'xcit_tiny_12_p16_224',
+ 'xcit_tiny_12_p16_224_dist',
+ 'xcit_tiny_12_p16_384_dist',
+ 'xcit_tiny_24_p8_224',
+ 'xcit_tiny_24_p8_224_dist',
+ 'xcit_tiny_24_p8_384_dist',
+ 'xcit_tiny_24_p16_224',
+ 'xcit_tiny_24_p16_224_dist',
+ 'xcit_tiny_24_p16_384_dist']</pre>
+</div>
+
+</div>
+
+</div>
+</div>
+
+</div>
+    
+
+    
+    
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython2"><pre><span></span><span class="o">!</span>pip install timm
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+<div class="output_wrapper">
+<div class="output">
+
+<div class="output_area">
+
+<div class="output_subarea output_stream output_stdout output_text">
+<pre>Collecting timm
+  Downloading timm-0.6.7-py3-none-any.whl (509 kB)
+     |████████████████████████████████| 509 kB 21.7 MB/s eta 0:00:01
+Requirement already satisfied: torchvision in /usr/local/lib/python3.6/dist-packages (from timm) (0.8.2+cu110)
+Requirement already satisfied: torch&gt;=1.4 in /usr/local/lib/python3.6/dist-packages (from timm) (1.7.1+cu110)
+Requirement already satisfied: typing-extensions in /usr/local/lib/python3.6/dist-packages (from torch&gt;=1.4-&gt;timm) (3.7.4.3)
+Requirement already satisfied: dataclasses in /usr/local/lib/python3.6/dist-packages (from torch&gt;=1.4-&gt;timm) (0.8)
+Requirement already satisfied: numpy in /usr/local/lib/python3.6/dist-packages (from torch&gt;=1.4-&gt;timm) (1.19.5)
+Requirement already satisfied: pillow&gt;=4.1.1 in /usr/local/lib/python3.6/dist-packages (from torchvision-&gt;timm) (8.1.0)
+Installing collected packages: timm
+Successfully installed timm-0.6.7
+<span class="ansi-yellow-fg">WARNING: You are using pip version 21.0.1; however, version 21.3.1 is available.
+You should consider upgrading via the '/usr/bin/python3 -m pip install --upgrade pip' command.</span>
+</pre>
+</div>
+</div>
+
+</div>
+</div>
+
+</div>
+    
+
+<div class="cell border-box-sizing text_cell rendered">
+<div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<p>['adv_inception_v3',
+ 'bat_resnext26ts',</p>
+<h1 id="'beit_base_patch16_224',">
+<a class="anchor" href="#'beit_base_patch16_224'," aria-hidden="true"><span class="octicon octicon-link"></span></a>'beit_base_patch16_224',<a class="anchor-link" href="#'beit_base_patch16_224',"> </a>
+</h1>
+<p>'beit_base_patch16_224_in22k',
+ 'beit_base_patch16_384',</p>
+<h1 id="'beit_large_patch16_224',">
+<a class="anchor" href="#'beit_large_patch16_224'," aria-hidden="true"><span class="octicon octicon-link"></span></a>'beit_large_patch16_224',<a class="anchor-link" href="#'beit_large_patch16_224',"> </a>
+</h1>
+<p>'beit_large_patch16_224_in22k',
+ 'beit_large_patch16_384',
+ 'beit_large_patch16_512',
+ 'botnet26t_256',
+ 'cait_m36_384',
+ 'cait_m48_448',
+ 'cait_s24_224',
+ 'cait_s24_384',
+ 'cait_s36_384',
+ 'cait_xs24_384',
+ 'cait_xxs24_224',
+ 'cait_xxs24_384',
+ 'cait_xxs36_224',
+ 'cait_xxs36_384',
+ 'coat_lite_mini',
+ 'coat_lite_small',
+ 'coat_lite_tiny',
+ 'coat_mini',
+ 'coat_tiny',
+ 'convit_base',
+ 'convit_small',
+ 'convit_tiny',
+ 'convmixer_768_32',
+ 'convmixer_1024_20_ks9_p14',
+ 'convmixer_1536_20',
+ 'convnext_base',
+ 'convnext_base_384_in22ft1k',
+ 'convnext_base_in22ft1k',
+ 'convnext_base_in22k',
+ 'convnext_large',
+ 'convnext_large_384_in22ft1k',
+ 'convnext_large_in22ft1k',
+ 'convnext_large_in22k',
+ 'convnext_nano',
+ 'convnext_small',
+ 'convnext_small_384_in22ft1k',
+ 'convnext_small_in22ft1k',
+ 'convnext_small_in22k',
+ 'convnext_tiny',
+ 'convnext_tiny_384_in22ft1k',
+ 'convnext_tiny_hnf',
+ 'convnext_tiny_in22ft1k',
+ 'convnext_tiny_in22k',
+ 'convnext_xlarge_384_in22ft1k',
+ 'convnext_xlarge_in22ft1k',
+ 'convnext_xlarge_in22k',
+ 'crossvit_9_240',
+ 'crossvit_9_dagger_240',
+ 'crossvit_15_240',
+ 'crossvit_15_dagger_240',
+ 'crossvit_15_dagger_408',
+ 'crossvit_18_240',
+ 'crossvit_18_dagger_240',
+ 'crossvit_18_dagger_408',
+ 'crossvit_base_240',
+ 'crossvit_small_240',
+ 'crossvit_tiny_240',
+ 'cs3darknet_focus_l',
+ 'cs3darknet_focus_m',
+ 'cs3darknet_l',
+ 'cs3darknet_m',
+ 'cs3darknet_x',
+ 'cs3edgenet_x',
+ 'cs3se_edgenet_x',
+ 'cs3sedarknet_l',
+ 'cs3sedarknet_x',
+ 'cspdarknet53',
+ 'cspresnet50',
+ 'cspresnext50',</p>
+<h1 id="'darknet53',">
+<a class="anchor" href="#'darknet53'," aria-hidden="true"><span class="octicon octicon-link"></span></a>'darknet53',<a class="anchor-link" href="#'darknet53',"> </a>
+</h1>
+<p>'darknetaa53',
+ 'deit3_base_patch16_224',
+ 'deit3_base_patch16_224_in21ft1k',
+ 'deit3_base_patch16_384',
+ 'deit3_base_patch16_384_in21ft1k',
+ 'deit3_huge_patch14_224',
+ 'deit3_huge_patch14_224_in21ft1k',
+ 'deit3_large_patch16_224',
+ 'deit3_large_patch16_224_in21ft1k',
+ 'deit3_large_patch16_384',
+ 'deit3_large_patch16_384_in21ft1k',
+ 'deit3_small_patch16_224',
+ 'deit3_small_patch16_224_in21ft1k',
+ 'deit3_small_patch16_384',
+ 'deit3_small_patch16_384_in21ft1k',
+ 'deit_base_distilled_patch16_224',
+ 'deit_base_distilled_patch16_384',
+ 'deit_base_patch16_224',
+ 'deit_base_patch16_384',
+ 'deit_small_distilled_patch16_224',
+ 'deit_small_patch16_224',
+ 'deit_tiny_distilled_patch16_224',
+ 'deit_tiny_patch16_224',</p>
+<h1 id="'densenet121',">
+<a class="anchor" href="#'densenet121'," aria-hidden="true"><span class="octicon octicon-link"></span></a>'densenet121',<a class="anchor-link" href="#'densenet121',"> </a>
+</h1>
+<h1 id="'densenet161',">
+<a class="anchor" href="#'densenet161'," aria-hidden="true"><span class="octicon octicon-link"></span></a>'densenet161',<a class="anchor-link" href="#'densenet161',"> </a>
+</h1>
+<h1 id="'densenet169',">
+<a class="anchor" href="#'densenet169'," aria-hidden="true"><span class="octicon octicon-link"></span></a>'densenet169',<a class="anchor-link" href="#'densenet169',"> </a>
+</h1>
+<h1 id="'densenet201',">
+<a class="anchor" href="#'densenet201'," aria-hidden="true"><span class="octicon octicon-link"></span></a>'densenet201',<a class="anchor-link" href="#'densenet201',"> </a>
+</h1>
+<p>'densenetblur121d',
+ 'dla34',
+ 'dla46_c',
+ 'dla46x_c',
+ 'dla60',
+ 'dla60_res2net',
+ 'dla60_res2next',
+ 'dla60x',
+ 'dla60x_c',
+ 'dla102',
+ 'dla102x',
+ 'dla102x2',
+ 'dla169',
+ 'dm_nfnet_f0',
+ 'dm_nfnet_f1',
+ 'dm_nfnet_f2',
+ 'dm_nfnet_f3',
+ 'dm_nfnet_f4',
+ 'dm_nfnet_f5',
+ 'dm_nfnet_f6',
+ 'dpn68',
+ 'dpn68b',
+ 'dpn92',
+ 'dpn98',
+ 'dpn107',
+ 'dpn131',
+ 'eca_botnext26ts_256',
+ 'eca_halonext26ts',
+ 'eca_nfnet_l0',
+ 'eca_nfnet_l1',
+ 'eca_nfnet_l2',
+ 'eca_resnet33ts',
+ 'eca_resnext26ts',
+ 'ecaresnet26t',
+ 'ecaresnet50d',
+ 'ecaresnet50d_pruned',
+ 'ecaresnet50t',
+ 'ecaresnet101d',
+ 'ecaresnet101d_pruned',
+ 'ecaresnet269d',
+ 'ecaresnetlight',
+ 'edgenext_small',
+ 'edgenext_small_rw',
+ 'edgenext_x_small',
+ 'edgenext_xx_small',</p>
+<h1 id="'efficientnet_b0',">
+<a class="anchor" href="#'efficientnet_b0'," aria-hidden="true"><span class="octicon octicon-link"></span></a>'efficientnet_b0',<a class="anchor-link" href="#'efficientnet_b0',"> </a>
+</h1>
+<h1 id="'efficientnet_b1',">
+<a class="anchor" href="#'efficientnet_b1'," aria-hidden="true"><span class="octicon octicon-link"></span></a>'efficientnet_b1',<a class="anchor-link" href="#'efficientnet_b1',"> </a>
+</h1>
+<p>'efficientnet_b1_pruned',</p>
+<h1 id="'efficientnet_b2',">
+<a class="anchor" href="#'efficientnet_b2'," aria-hidden="true"><span class="octicon octicon-link"></span></a>'efficientnet_b2',<a class="anchor-link" href="#'efficientnet_b2',"> </a>
+</h1>
+<p>'efficientnet_b2_pruned',</p>
+<h1 id="'efficientnet_b3',">
+<a class="anchor" href="#'efficientnet_b3'," aria-hidden="true"><span class="octicon octicon-link"></span></a>'efficientnet_b3',<a class="anchor-link" href="#'efficientnet_b3',"> </a>
+</h1>
+<p>'efficientnet_b3_pruned',</p>
+<h1 id="'efficientnet_b4',">
+<a class="anchor" href="#'efficientnet_b4'," aria-hidden="true"><span class="octicon octicon-link"></span></a>'efficientnet_b4',<a class="anchor-link" href="#'efficientnet_b4',"> </a>
+</h1>
+<p>'efficientnet_el',
+ 'efficientnet_el_pruned',
+ 'efficientnet_em',
+ 'efficientnet_es',
+ 'efficientnet_es_pruned',
+ 'efficientnet_lite0',
+ 'efficientnetv2_rw_m',
+ 'efficientnetv2_rw_s',
+ 'efficientnetv2_rw_t',
+ 'ens_adv_inception_resnet_v2',
+ 'ese_vovnet19b_dw',
+ 'ese_vovnet39b',
+ 'fbnetc_100',
+ 'fbnetv3_b',
+ 'fbnetv3_d',
+ 'fbnetv3_g',
+ 'gc_efficientnetv2_rw_t',
+ 'gcresnet33ts',
+ 'gcresnet50t',
+ 'gcresnext26ts',
+ 'gcresnext50ts',
+ 'gernet_l',
+ 'gernet_m',
+ 'gernet_s',
+ 'ghostnet_100',
+ 'gluon_inception_v3',
+ 'gluon_resnet18_v1b',
+ 'gluon_resnet34_v1b',
+ 'gluon_resnet50_v1b',
+ 'gluon_resnet50_v1c',
+ 'gluon_resnet50_v1d',
+ 'gluon_resnet50_v1s',
+ 'gluon_resnet101_v1b',
+ 'gluon_resnet101_v1c',
+ 'gluon_resnet101_v1d',
+ 'gluon_resnet101_v1s',
+ 'gluon_resnet152_v1b',
+ 'gluon_resnet152_v1c',
+ 'gluon_resnet152_v1d',
+ 'gluon_resnet152_v1s',
+ 'gluon_resnext50_32x4d',
+ 'gluon_resnext101_32x4d',
+ 'gluon_resnext101_64x4d',
+ 'gluon_senet154',
+ 'gluon_seresnext50_32x4d',
+ 'gluon_seresnext101_32x4d',
+ 'gluon_seresnext101_64x4d',
+ 'gluon_xception65',
+ 'gmixer_24_224',
+ 'gmlp_s16_224',
+ 'halo2botnet50ts_256',
+ 'halonet26t',
+ 'halonet50ts',
+ 'haloregnetz_b',
+ 'hardcorenas_a',
+ 'hardcorenas_b',
+ 'hardcorenas_c',
+ 'hardcorenas_d',
+ 'hardcorenas_e',
+ 'hardcorenas_f',
+ 'hrnet_w18',
+ 'hrnet_w18_small',
+ 'hrnet_w18_small_v2',
+ 'hrnet_w30',
+ 'hrnet_w32',
+ 'hrnet_w40',
+ 'hrnet_w44',
+ 'hrnet_w48',
+ 'hrnet_w64',
+ 'ig_resnext101_32x8d',
+ 'ig_resnext101_32x16d',
+ 'ig_resnext101_32x32d',
+ 'ig_resnext101_32x48d',
+ 'inception_resnet_v2',
+ 'inception_v3',
+ 'inception_v4',
+ 'jx_nest_base',
+ 'jx_nest_small',
+ 'jx_nest_tiny',
+ 'lambda_resnet26rpt_256',
+ 'lambda_resnet26t',
+ 'lambda_resnet50ts',
+ 'lamhalobotnet50ts_256',
+ 'lcnet_050',
+ 'lcnet_075',
+ 'lcnet_100',
+ 'legacy_senet154',
+ 'legacy_seresnet18',
+ 'legacy_seresnet34',
+ 'legacy_seresnet50',
+ 'legacy_seresnet101',
+ 'legacy_seresnet152',
+ 'legacy_seresnext26_32x4d',
+ 'legacy_seresnext50_32x4d',
+ 'legacy_seresnext101_32x4d',
+ 'levit_128',
+ 'levit_128s',
+ 'levit_192',
+ 'levit_256',
+ 'levit_384',
+ 'mixer_b16_224',
+ 'mixer_b16_224_in21k',
+ 'mixer_b16_224_miil',
+ 'mixer_b16_224_miil_in21k',
+ 'mixer_l16_224',
+ 'mixer_l16_224_in21k',
+ 'mixnet_l',
+ 'mixnet_m',
+ 'mixnet_s',
+ 'mixnet_xl',
+ 'mnasnet_100',
+ 'mnasnet_small',</p>
+<h1 id="'mobilenetv2_050',">
+<a class="anchor" href="#'mobilenetv2_050'," aria-hidden="true"><span class="octicon octicon-link"></span></a>'mobilenetv2_050',<a class="anchor-link" href="#'mobilenetv2_050',"> </a>
+</h1>
+<h1 id="'mobilenetv2_100',">
+<a class="anchor" href="#'mobilenetv2_100'," aria-hidden="true"><span class="octicon octicon-link"></span></a>'mobilenetv2_100',<a class="anchor-link" href="#'mobilenetv2_100',"> </a>
+</h1>
+<p>'mobilenetv2_110d',
+ 'mobilenetv2_120d',</p>
+<h1 id="'mobilenetv2_140',">
+<a class="anchor" href="#'mobilenetv2_140'," aria-hidden="true"><span class="octicon octicon-link"></span></a>'mobilenetv2_140',<a class="anchor-link" href="#'mobilenetv2_140',"> </a>
+</h1>
+<h1 id="'mobilenetv3_large_100',">
+<a class="anchor" href="#'mobilenetv3_large_100'," aria-hidden="true"><span class="octicon octicon-link"></span></a>'mobilenetv3_large_100',<a class="anchor-link" href="#'mobilenetv3_large_100',"> </a>
+</h1>
+<p>'mobilenetv3_large_100_miil',
+ 'mobilenetv3_large_100_miil_in21k',
+ 'mobilenetv3_rw',</p>
+<h1 id="'mobilenetv3_small_050',">
+<a class="anchor" href="#'mobilenetv3_small_050'," aria-hidden="true"><span class="octicon octicon-link"></span></a>'mobilenetv3_small_050',<a class="anchor-link" href="#'mobilenetv3_small_050',"> </a>
+</h1>
+<p>'mobilenetv3_small_075',</p>
+<h1 id="'mobilenetv3_small_100',">
+<a class="anchor" href="#'mobilenetv3_small_100'," aria-hidden="true"><span class="octicon octicon-link"></span></a>'mobilenetv3_small_100',<a class="anchor-link" href="#'mobilenetv3_small_100',"> </a>
+</h1>
+<p>'mobilevit_s',
+ 'mobilevit_xs',
+ 'mobilevit_xxs',</p>
+<h1 id="'mobilevitv2_050',">
+<a class="anchor" href="#'mobilevitv2_050'," aria-hidden="true"><span class="octicon octicon-link"></span></a>'mobilevitv2_050',<a class="anchor-link" href="#'mobilevitv2_050',"> </a>
+</h1>
+<p>'mobilevitv2_075',</p>
+<h1 id="'mobilevitv2_100',">
+<a class="anchor" href="#'mobilevitv2_100'," aria-hidden="true"><span class="octicon octicon-link"></span></a>'mobilevitv2_100',<a class="anchor-link" href="#'mobilevitv2_100',"> </a>
+</h1>
+<p>'mobilevitv2_125',</p>
+<h1 id="'mobilevitv2_150',">
+<a class="anchor" href="#'mobilevitv2_150'," aria-hidden="true"><span class="octicon octicon-link"></span></a>'mobilevitv2_150',<a class="anchor-link" href="#'mobilevitv2_150',"> </a>
+</h1>
+<p>'mobilevitv2_150_384_in22ft1k',
+ 'mobilevitv2_150_in22ft1k',
+ 'mobilevitv2_175',
+ 'mobilevitv2_175_384_in22ft1k',
+ 'mobilevitv2_175_in22ft1k',</p>
+<h1 id="'mobilevitv2_200',">
+<a class="anchor" href="#'mobilevitv2_200'," aria-hidden="true"><span class="octicon octicon-link"></span></a>'mobilevitv2_200',<a class="anchor-link" href="#'mobilevitv2_200',"> </a>
+</h1>
+<p>'mobilevitv2_200_384_in22ft1k',
+ 'mobilevitv2_200_in22ft1k',
+ 'nasnetalarge',
+ 'nf_regnet_b1',
+ 'nf_resnet50',
+ 'nfnet_l0',
+ 'pit_b_224',
+ 'pit_b_distilled_224',
+ 'pit_s_224',
+ 'pit_s_distilled_224',
+ 'pit_ti_224',
+ 'pit_ti_distilled_224',
+ 'pit_xs_224',
+ 'pit_xs_distilled_224',
+ 'pnasnet5large',
+ 'poolformer_m36',
+ 'poolformer_m48',
+ 'poolformer_s12',
+ 'poolformer_s24',
+ 'poolformer_s36',
+ 'regnetv_040',
+ 'regnetv_064',
+ 'regnetx_002',
+ 'regnetx_004',
+ 'regnetx_006',
+ 'regnetx_008',
+ 'regnetx_016',
+ 'regnetx_032',
+ 'regnetx_040',
+ 'regnetx_064',
+ 'regnetx_080',
+ 'regnetx_120',
+ 'regnetx_160',
+ 'regnetx_320',
+ 'regnety_002',
+ 'regnety_004',
+ 'regnety_006',
+ 'regnety_008',
+ 'regnety_016',
+ 'regnety_032',
+ 'regnety_040',
+ 'regnety_064',
+ 'regnety_080',
+ 'regnety_120',
+ 'regnety_160',
+ 'regnety_320',
+ 'regnetz_040',
+ 'regnetz_040h',
+ 'regnetz_b16',
+ 'regnetz_c16',
+ 'regnetz_c16_evos',
+ 'regnetz_d8',
+ 'regnetz_d8_evos',
+ 'regnetz_d32',
+ 'regnetz_e8',
+ 'repvgg_a2',
+ 'repvgg_b0',
+ 'repvgg_b1',
+ 'repvgg_b1g4',
+ 'repvgg_b2',
+ 'repvgg_b2g4',
+ 'repvgg_b3',
+ 'repvgg_b3g4',
+ 'res2net50_14w_8s',
+ 'res2net50_26w_4s',
+ 'res2net50_26w_6s',
+ 'res2net50_26w_8s',
+ 'res2net50_48w_2s',
+ 'res2net101_26w_4s',
+ 'res2next50',
+ 'resmlp_12_224',
+ 'resmlp_12_224_dino',
+ 'resmlp_12_distilled_224',
+ 'resmlp_24_224',
+ 'resmlp_24_224_dino',
+ 'resmlp_24_distilled_224',
+ 'resmlp_36_224',
+ 'resmlp_36_distilled_224',
+ 'resmlp_big_24_224',
+ 'resmlp_big_24_224_in22ft1k',
+ 'resmlp_big_24_distilled_224',
+ 'resnest14d',
+ 'resnest26d',
+ 'resnest50d',
+ 'resnest50d_1s4x24d',
+ 'resnest50d_4s2x40d',
+ 'resnest101e',
+ 'resnest200e',
+ 'resnest269e',
+ 'resnet10t',
+ 'resnet14t',</p>
+<h1 id="'resnet18',">
+<a class="anchor" href="#'resnet18'," aria-hidden="true"><span class="octicon octicon-link"></span></a>'resnet18',<a class="anchor-link" href="#'resnet18',"> </a>
+</h1>
+<p>'resnet18d',
+ 'resnet26',
+ 'resnet26d',
+ 'resnet26t',
+ 'resnet32ts',
+ 'resnet33ts',</p>
+<h1 id="'resnet34',">
+<a class="anchor" href="#'resnet34'," aria-hidden="true"><span class="octicon octicon-link"></span></a>'resnet34',<a class="anchor-link" href="#'resnet34',"> </a>
+</h1>
+<p>'resnet34d',</p>
+<h1 id="'resnet50',">
+<a class="anchor" href="#'resnet50'," aria-hidden="true"><span class="octicon octicon-link"></span></a>'resnet50',<a class="anchor-link" href="#'resnet50',"> </a>
+</h1>
+<p>'resnet50_gn',
+ 'resnet50d',
+ 'resnet51q',
+ 'resnet61q',</p>
+<h1 id="'resnet101',">
+<a class="anchor" href="#'resnet101'," aria-hidden="true"><span class="octicon octicon-link"></span></a>'resnet101',<a class="anchor-link" href="#'resnet101',"> </a>
+</h1>
+<p>'resnet101d',</p>
+<h1 id="'resnet152',">
+<a class="anchor" href="#'resnet152'," aria-hidden="true"><span class="octicon octicon-link"></span></a>'resnet152',<a class="anchor-link" href="#'resnet152',"> </a>
+</h1>
+<p>'resnet152d',
+ 'resnet200d',
+ 'resnetaa50',
+ 'resnetblur50',
+ 'resnetrs50',
+ 'resnetrs101',
+ 'resnetrs152',
+ 'resnetrs200',
+ 'resnetrs270',
+ 'resnetrs350',
+ 'resnetrs420',
+ 'resnetv2_50',
+ 'resnetv2_50d_evos',
+ 'resnetv2_50d_gn',
+ 'resnetv2_50x1_bit_distilled',
+ 'resnetv2_50x1_bitm',
+ 'resnetv2_50x1_bitm_in21k',
+ 'resnetv2_50x3_bitm',
+ 'resnetv2_50x3_bitm_in21k',
+ 'resnetv2_101',
+ 'resnetv2_101x1_bitm',
+ 'resnetv2_101x1_bitm_in21k',
+ 'resnetv2_101x3_bitm',
+ 'resnetv2_101x3_bitm_in21k',
+ 'resnetv2_152x2_bit_teacher',
+ 'resnetv2_152x2_bit_teacher_384',
+ 'resnetv2_152x2_bitm',
+ 'resnetv2_152x2_bitm_in21k',
+ 'resnetv2_152x4_bitm',
+ 'resnetv2_152x4_bitm_in21k',
+ 'resnext26ts',
+ 'resnext50_32x4d',
+ 'resnext50d_32x4d',
+ 'resnext101_32x8d',
+ 'resnext101_64x4d',
+ 'rexnet_100',
+ 'rexnet_130',
+ 'rexnet_150',
+ 'rexnet_200',
+ 'sebotnet33ts_256',
+ 'sehalonet33ts',
+ 'selecsls42b',
+ 'selecsls60',
+ 'selecsls60b',
+ 'semnasnet_075',
+ 'semnasnet_100',
+ 'sequencer2d_l',
+ 'sequencer2d_m',
+ 'sequencer2d_s',
+ 'seresnet33ts',
+ 'seresnet50',
+ 'seresnet152d',
+ 'seresnext26d_32x4d',
+ 'seresnext26t_32x4d',
+ 'seresnext26ts',
+ 'seresnext50_32x4d',
+ 'seresnext101_32x8d',
+ 'seresnext101d_32x8d',
+ 'seresnextaa101d_32x8d',
+ 'skresnet18',
+ 'skresnet34',
+ 'skresnext50_32x4d',
+ 'spnasnet_100',
+ 'ssl_resnet18',
+ 'ssl_resnet50',
+ 'ssl_resnext50_32x4d',
+ 'ssl_resnext101_32x4d',
+ 'ssl_resnext101_32x8d',
+ 'ssl_resnext101_32x16d',</p>
+<h1 id="'swin_base_patch4_window7_224',">
+<a class="anchor" href="#'swin_base_patch4_window7_224'," aria-hidden="true"><span class="octicon octicon-link"></span></a>'swin_base_patch4_window7_224',<a class="anchor-link" href="#'swin_base_patch4_window7_224',"> </a>
+</h1>
+<p>'swin_base_patch4_window7_224_in22k',
+ 'swin_base_patch4_window12_384',
+ 'swin_base_patch4_window12_384_in22k',</p>
+<h1 id="'swin_large_patch4_window7_224',">
+<a class="anchor" href="#'swin_large_patch4_window7_224'," aria-hidden="true"><span class="octicon octicon-link"></span></a>'swin_large_patch4_window7_224',<a class="anchor-link" href="#'swin_large_patch4_window7_224',"> </a>
+</h1>
+<p>'swin_large_patch4_window7_224_in22k',
+ 'swin_large_patch4_window12_384',
+ 'swin_large_patch4_window12_384_in22k',
+ 'swin_s3_base_224',
+ 'swin_s3_small_224',
+ 'swin_s3_tiny_224',</p>
+<h1 id="'swin_small_patch4_window7_224',">
+<a class="anchor" href="#'swin_small_patch4_window7_224'," aria-hidden="true"><span class="octicon octicon-link"></span></a>'swin_small_patch4_window7_224',<a class="anchor-link" href="#'swin_small_patch4_window7_224',"> </a>
+</h1>
+<h1 id="'swin_tiny_patch4_window7_224',">
+<a class="anchor" href="#'swin_tiny_patch4_window7_224'," aria-hidden="true"><span class="octicon octicon-link"></span></a>'swin_tiny_patch4_window7_224',<a class="anchor-link" href="#'swin_tiny_patch4_window7_224',"> </a>
+</h1>
+<p>'swinv2_base_window8_256',
+ 'swinv2_base_window12_192_22k',
+ 'swinv2_base_window12to16_192to256_22kft1k',
+ 'swinv2_base_window12to24_192to384_22kft1k',
+ 'swinv2_base_window16_256',
+ 'swinv2_cr_small_224',
+ 'swinv2_cr_small_ns_224',
+ 'swinv2_cr_tiny_ns_224',
+ 'swinv2_large_window12_192_22k',
+ 'swinv2_large_window12to16_192to256_22kft1k',
+ 'swinv2_large_window12to24_192to384_22kft1k',
+ 'swinv2_small_window8_256',
+ 'swinv2_small_window16_256',
+ 'swinv2_tiny_window8_256',
+ 'swinv2_tiny_window16_256',
+ 'swsl_resnet18',
+ 'swsl_resnet50',
+ 'swsl_resnext50_32x4d',
+ 'swsl_resnext101_32x4d',
+ 'swsl_resnext101_32x8d',
+ 'swsl_resnext101_32x16d',
+ 'tf_efficientnet_b0',
+ 'tf_efficientnet_b0_ap',
+ 'tf_efficientnet_b0_ns',
+ 'tf_efficientnet_b1',
+ 'tf_efficientnet_b1_ap',
+ 'tf_efficientnet_b1_ns',
+ 'tf_efficientnet_b2',
+ 'tf_efficientnet_b2_ap',
+ 'tf_efficientnet_b2_ns',
+ 'tf_efficientnet_b3',
+ 'tf_efficientnet_b3_ap',
+ 'tf_efficientnet_b3_ns',
+ 'tf_efficientnet_b4',
+ 'tf_efficientnet_b4_ap',
+ 'tf_efficientnet_b4_ns',
+ 'tf_efficientnet_b5',
+ 'tf_efficientnet_b5_ap',
+ 'tf_efficientnet_b5_ns',
+ 'tf_efficientnet_b6',
+ 'tf_efficientnet_b6_ap',
+ 'tf_efficientnet_b6_ns',
+ 'tf_efficientnet_b7',
+ 'tf_efficientnet_b7_ap',
+ 'tf_efficientnet_b7_ns',
+ 'tf_efficientnet_b8',
+ 'tf_efficientnet_b8_ap',
+ 'tf_efficientnet_cc_b0_4e',
+ 'tf_efficientnet_cc_b0_8e',
+ 'tf_efficientnet_cc_b1_8e',
+ 'tf_efficientnet_el',
+ 'tf_efficientnet_em',
+ 'tf_efficientnet_es',
+ 'tf_efficientnet_l2_ns',
+ 'tf_efficientnet_l2_ns_475',
+ 'tf_efficientnet_lite0',
+ 'tf_efficientnet_lite1',
+ 'tf_efficientnet_lite2',
+ 'tf_efficientnet_lite3',
+ 'tf_efficientnet_lite4',
+ 'tf_efficientnetv2_b0',
+ 'tf_efficientnetv2_b1',
+ 'tf_efficientnetv2_b2',
+ 'tf_efficientnetv2_b3',
+ 'tf_efficientnetv2_l',
+ 'tf_efficientnetv2_l_in21ft1k',
+ 'tf_efficientnetv2_l_in21k',
+ 'tf_efficientnetv2_m',
+ 'tf_efficientnetv2_m_in21ft1k',
+ 'tf_efficientnetv2_m_in21k',
+ 'tf_efficientnetv2_s',
+ 'tf_efficientnetv2_s_in21ft1k',
+ 'tf_efficientnetv2_s_in21k',
+ 'tf_efficientnetv2_xl_in21ft1k',
+ 'tf_efficientnetv2_xl_in21k',
+ 'tf_inception_v3',
+ 'tf_mixnet_l',
+ 'tf_mixnet_m',
+ 'tf_mixnet_s',
+ 'tf_mobilenetv3_large_075',
+ 'tf_mobilenetv3_large_100',
+ 'tf_mobilenetv3_large_minimal_100',
+ 'tf_mobilenetv3_small_075',
+ 'tf_mobilenetv3_small_100',
+ 'tf_mobilenetv3_small_minimal_100',</p>
+<h1 id="'tinynet_a',">
+<a class="anchor" href="#'tinynet_a'," aria-hidden="true"><span class="octicon octicon-link"></span></a>'tinynet_a',<a class="anchor-link" href="#'tinynet_a',"> </a>
+</h1>
+<h1 id="'tinynet_b',">
+<a class="anchor" href="#'tinynet_b'," aria-hidden="true"><span class="octicon octicon-link"></span></a>'tinynet_b',<a class="anchor-link" href="#'tinynet_b',"> </a>
+</h1>
+<h1 id="'tinynet_c',">
+<a class="anchor" href="#'tinynet_c'," aria-hidden="true"><span class="octicon octicon-link"></span></a>'tinynet_c',<a class="anchor-link" href="#'tinynet_c',"> </a>
+</h1>
+<h1 id="'tinynet_d',">
+<a class="anchor" href="#'tinynet_d'," aria-hidden="true"><span class="octicon octicon-link"></span></a>'tinynet_d',<a class="anchor-link" href="#'tinynet_d',"> </a>
+</h1>
+<h1 id="'tinynet_e',">
+<a class="anchor" href="#'tinynet_e'," aria-hidden="true"><span class="octicon octicon-link"></span></a>'tinynet_e',<a class="anchor-link" href="#'tinynet_e',"> </a>
+</h1>
+<p>'tnt_s_patch16_224',
+ 'tresnet_l',
+ 'tresnet_l_448',
+ 'tresnet_m',
+ 'tresnet_m_448',
+ 'tresnet_m_miil_in21k',
+ 'tresnet_xl',
+ 'tresnet_xl_448',
+ 'tv_densenet121',
+ 'tv_resnet34',
+ 'tv_resnet50',
+ 'tv_resnet101',
+ 'tv_resnet152',
+ 'tv_resnext50_32x4d',
+ 'twins_pcpvt_base',
+ 'twins_pcpvt_large',
+ 'twins_pcpvt_small',
+ 'twins_svt_base',
+ 'twins_svt_large',
+ 'twins_svt_small',</p>
+<h1 id="'vgg11',">
+<a class="anchor" href="#'vgg11'," aria-hidden="true"><span class="octicon octicon-link"></span></a>'vgg11',<a class="anchor-link" href="#'vgg11',"> </a>
+</h1>
+<p>'vgg11_bn',</p>
+<h1 id="'vgg13',">
+<a class="anchor" href="#'vgg13'," aria-hidden="true"><span class="octicon octicon-link"></span></a>'vgg13',<a class="anchor-link" href="#'vgg13',"> </a>
+</h1>
+<p>'vgg13_bn',</p>
+<h1 id="'vgg16',">
+<a class="anchor" href="#'vgg16'," aria-hidden="true"><span class="octicon octicon-link"></span></a>'vgg16',<a class="anchor-link" href="#'vgg16',"> </a>
+</h1>
+<p>'vgg16_bn',</p>
+<h1 id="'vgg19',">
+<a class="anchor" href="#'vgg19'," aria-hidden="true"><span class="octicon octicon-link"></span></a>'vgg19',<a class="anchor-link" href="#'vgg19',"> </a>
+</h1>
+<p>'vgg19_bn',
+ 'visformer_small',
+ 'vit_base_patch8_224',
+ 'vit_base_patch8_224_dino',
+ 'vit_base_patch8_224_in21k',</p>
+<h1 id="'vit_base_patch16_224',">
+<a class="anchor" href="#'vit_base_patch16_224'," aria-hidden="true"><span class="octicon octicon-link"></span></a>'vit_base_patch16_224',<a class="anchor-link" href="#'vit_base_patch16_224',"> </a>
+</h1>
+<p>'vit_base_patch16_224_dino',
+ 'vit_base_patch16_224_in21k',
+ 'vit_base_patch16_224_miil',
+ 'vit_base_patch16_224_miil_in21k',
+ 'vit_base_patch16_224_sam',
+ 'vit_base_patch16_384',
+ 'vit_base_patch16_rpn_224',</p>
+<h1 id="'vit_base_patch32_224',">
+<a class="anchor" href="#'vit_base_patch32_224'," aria-hidden="true"><span class="octicon octicon-link"></span></a>'vit_base_patch32_224',<a class="anchor-link" href="#'vit_base_patch32_224',"> </a>
+</h1>
+<p>'vit_base_patch32_224_in21k',
+ 'vit_base_patch32_224_sam',
+ 'vit_base_patch32_384',
+ 'vit_base_r50_s16_224_in21k',
+ 'vit_base_r50_s16_384',
+ 'vit_huge_patch14_224_in21k',</p>
+<h1 id="'vit_large_patch16_224',">
+<a class="anchor" href="#'vit_large_patch16_224'," aria-hidden="true"><span class="octicon octicon-link"></span></a>'vit_large_patch16_224',<a class="anchor-link" href="#'vit_large_patch16_224',"> </a>
+</h1>
+<p>'vit_large_patch16_224_in21k',
+ 'vit_large_patch16_384',
+ 'vit_large_patch32_224_in21k',
+ 'vit_large_patch32_384',
+ 'vit_large_r50_s32_224',
+ 'vit_large_r50_s32_224_in21k',
+ 'vit_large_r50_s32_384',</p>
+<h1 id="'vit_relpos_base_patch16_224',">
+<a class="anchor" href="#'vit_relpos_base_patch16_224'," aria-hidden="true"><span class="octicon octicon-link"></span></a>'vit_relpos_base_patch16_224',<a class="anchor-link" href="#'vit_relpos_base_patch16_224',"> </a>
+</h1>
+<p>'vit_relpos_base_patch16_clsgap_224',
+ 'vit_relpos_base_patch32_plus_rpn_256',
+ 'vit_relpos_medium_patch16_224',
+ 'vit_relpos_medium_patch16_cls_224',
+ 'vit_relpos_medium_patch16_rpn_224',
+ 'vit_relpos_small_patch16_224',
+ 'vit_small_patch8_224_dino',</p>
+<h1 id="'vit_small_patch16_224',">
+<a class="anchor" href="#'vit_small_patch16_224'," aria-hidden="true"><span class="octicon octicon-link"></span></a>'vit_small_patch16_224',<a class="anchor-link" href="#'vit_small_patch16_224',"> </a>
+</h1>
+<p>'vit_small_patch16_224_dino',
+ 'vit_small_patch16_224_in21k',
+ 'vit_small_patch16_384',</p>
+<h1 id="'vit_small_patch32_224',">
+<a class="anchor" href="#'vit_small_patch32_224'," aria-hidden="true"><span class="octicon octicon-link"></span></a>'vit_small_patch32_224',<a class="anchor-link" href="#'vit_small_patch32_224',"> </a>
+</h1>
+<p>'vit_small_patch32_224_in21k',
+ 'vit_small_patch32_384',
+ 'vit_small_r26_s32_224',
+ 'vit_small_r26_s32_224_in21k',
+ 'vit_small_r26_s32_384',
+ 'vit_srelpos_medium_patch16_224',
+ 'vit_srelpos_small_patch16_224',</p>
+<h1 id="'vit_tiny_patch16_224',">
+<a class="anchor" href="#'vit_tiny_patch16_224'," aria-hidden="true"><span class="octicon octicon-link"></span></a>'vit_tiny_patch16_224',<a class="anchor-link" href="#'vit_tiny_patch16_224',"> </a>
+</h1>
+<p>'vit_tiny_patch16_224_in21k',
+ 'vit_tiny_patch16_384',
+ 'vit_tiny_r_s16_p8_224',
+ 'vit_tiny_r_s16_p8_224_in21k',
+ 'vit_tiny_r_s16_p8_384',
+ 'volo_d1_224',
+ 'volo_d1_384',
+ 'volo_d2_224',
+ 'volo_d2_384',
+ 'volo_d3_224',
+ 'volo_d3_448',
+ 'volo_d4_224',
+ 'volo_d4_448',
+ 'volo_d5_224',
+ 'volo_d5_448',
+ 'volo_d5_512',
+ 'wide_resnet50_2',
+ 'wide_resnet101_2',</p>
+<h1 id="'xception',">
+<a class="anchor" href="#'xception'," aria-hidden="true"><span class="octicon octicon-link"></span></a>'xception',<a class="anchor-link" href="#'xception',"> </a>
+</h1>
+<h1 id="'xception41',">
+<a class="anchor" href="#'xception41'," aria-hidden="true"><span class="octicon octicon-link"></span></a>'xception41',<a class="anchor-link" href="#'xception41',"> </a>
+</h1>
+<p>'xception41p',</p>
+<h1 id="'xception65',">
+<a class="anchor" href="#'xception65'," aria-hidden="true"><span class="octicon octicon-link"></span></a>'xception65',<a class="anchor-link" href="#'xception65',"> </a>
+</h1>
+<p>'xception65p',</p>
+<h1 id="'xception71',">
+<a class="anchor" href="#'xception71'," aria-hidden="true"><span class="octicon octicon-link"></span></a>'xception71',<a class="anchor-link" href="#'xception71',"> </a>
+</h1>
+<p>'xcit_large_24_p8_224',
+ 'xcit_large_24_p8_224_dist',
+ 'xcit_large_24_p8_384_dist',
+ 'xcit_large_24_p16_224',
+ 'xcit_large_24_p16_224_dist',
+ 'xcit_large_24_p16_384_dist',
+ 'xcit_medium_24_p8_224',
+ 'xcit_medium_24_p8_224_dist',
+ 'xcit_medium_24_p8_384_dist',
+ 'xcit_medium_24_p16_224',
+ 'xcit_medium_24_p16_224_dist',
+ 'xcit_medium_24_p16_384_dist',
+ 'xcit_nano_12_p8_224',
+ 'xcit_nano_12_p8_224_dist',
+ 'xcit_nano_12_p8_384_dist',
+ 'xcit_nano_12_p16_224',
+ 'xcit_nano_12_p16_224_dist',
+ 'xcit_nano_12_p16_384_dist',
+ 'xcit_small_12_p8_224',
+ 'xcit_small_12_p8_224_dist',
+ 'xcit_small_12_p8_384_dist',
+ 'xcit_small_12_p16_224',
+ 'xcit_small_12_p16_224_dist',
+ 'xcit_small_12_p16_384_dist',
+ 'xcit_small_24_p8_224',
+ 'xcit_small_24_p8_224_dist',
+ 'xcit_small_24_p8_384_dist',
+ 'xcit_small_24_p16_224',
+ 'xcit_small_24_p16_224_dist',
+ 'xcit_small_24_p16_384_dist',
+ 'xcit_tiny_12_p8_224',
+ 'xcit_tiny_12_p8_224_dist',
+ 'xcit_tiny_12_p8_384_dist',
+ 'xcit_tiny_12_p16_224',
+ 'xcit_tiny_12_p16_224_dist',
+ 'xcit_tiny_12_p16_384_dist',
+ 'xcit_tiny_24_p8_224',
+ 'xcit_tiny_24_p8_224_dist',
+ 'xcit_tiny_24_p8_384_dist',
+ 'xcit_tiny_24_p16_224',
+ 'xcit_tiny_24_p16_224_dist',
+ 'xcit_tiny_24_p16_384_dist']</p>
+
+</div>
+</div>
+</div>
+    
+    
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython2"><pre><span></span><span class="kn">import</span> <span class="nn">telegram</span>
+
+<span class="n">API_KEY</span> <span class="o">=</span> <span class="s1">'5460651923:AAEqFadVyBchYkMIisuxzYSDr08OR3SsGWw'</span>
+<span class="n">bot</span> <span class="o">=</span> <span class="n">telegram</span><span class="o">.</span><span class="n">Bot</span><span class="p">(</span><span class="n">token</span> <span class="o">=</span> <span class="n">API_KEY</span><span class="p">)</span>
+
+<span class="n">chat_id</span> <span class="o">=</span> <span class="s2">"919256253"</span>
+
+<span class="n">updates</span> <span class="o">=</span> <span class="n">bot</span><span class="o">.</span><span class="n">getUpdates</span><span class="p">()</span>
+<span class="n">updates</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+<div class="output_wrapper">
+<div class="output">
+
+<div class="output_area">
+
+
+
+<div class="output_text output_subarea output_execute_result">
+<pre>[&lt;telegram.update.Update at 0x7f9419a36d90&gt;]</pre>
+</div>
+
+</div>
+
+</div>
+</div>
+
+</div>
+    
+
+    
+    
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython2"><pre><span></span><span class="k">try</span><span class="p">:</span>
+    <span class="n">a</span><span class="o">=</span><span class="mi">1</span>
+<span class="k">except</span><span class="p">:</span>
+    <span class="n">bot</span><span class="o">.</span><span class="n">sendMessage</span><span class="p">(</span><span class="n">chat_id</span> <span class="o">=</span> <span class="n">chat_id</span><span class="p">,</span> <span class="n">text</span><span class="o">=</span><span class="s2">"코드 실행이 실패하였습니다."</span><span class="p">)</span>
+<span class="k">else</span><span class="p">:</span>
+    <span class="n">bot</span><span class="o">.</span><span class="n">sendMessage</span><span class="p">(</span><span class="n">chat_id</span> <span class="o">=</span> <span class="n">chat_id</span><span class="p">,</span> <span class="n">text</span><span class="o">=</span><span class="s2">"코드 실행이 성공적으로 진행되었습니다."</span><span class="p">)</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+</div>
+    
+
+</div>
+
+
+
+  </div><!-- from https://github.com/utterance/utterances -->
+<script src="https://utteranc.es/client.js"
+        repo="P-reader/blog"
+        issue-term="title"
+        label="blogpost-comment"
+        theme="github-light"
+        crossorigin="anonymous"
+        async>
+</script><a class="u-url" href="/blog/jupyter/2022/08/30/model-list.html" hidden></a>
+</article>
+
+      </div>
+    </main><footer class="site-footer h-card">
+  <data class="u-url" href="/blog/"></data>
+
+  <div class="wrapper">
+
+    <div class="footer-col-wrapper">
+      <div class="footer-col">
+        <p class="feed-subscribe">
+          <a href="/blog/feed.xml">
+            <svg class="svg-icon orange">
+              <use xlink:href="/blog/assets/minima-social-icons.svg#rss"></use>
+            </svg><span>Subscribe</span>
+          </a>
+        </p>
+      </div>
+      <div class="footer-col">
+        <p>Lee Sangmim&#39;s paper review blog</p>
+      </div>
+    </div>
+
+    <div class="social-links"><ul class="social-media-list"><li><a rel="me" href="https://github.com/d9249" target="_blank" title="d9249"><svg class="svg-icon grey"><use xlink:href="/blog/assets/minima-social-icons.svg#github"></use></svg></a></li></ul>
+</div>
+
+  </div>
+
+</footer>
+</body>
+
+</html>
