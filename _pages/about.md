@@ -72,6 +72,7 @@ permalink: /about/
 | 21.03.02 ~ 21.06.15 | Fit-sibang | [Repo Link](https://github.com/KGU-Code-15/fit-sibang)    | React.js, Node.js, JS |
 | 21.06.29 ~ 21.07.10 | Image_crop | [Repo Link](https://github.com/d9249/Learning/tree/main/프로젝트/CropStride)       | Python |
 | 21.10.01 ~ 22.02.28 | IA^2S(Image Analysis Automation System | [Repo Link](https://github.com/HHFEHH/crack-automation), [Deploy Link](http://ideal96.synology.me:7000/)    | Django, opencv, Python, JS |
+| 22.07.06 ~ 22.09.07 | CS224W-KOR Blog | [Repo Link](https://github.com/CS224W-KOR/blog), [Deploy Link](https://cs224w-kor.github.io/blog/)    | Review |
 
 ### Participation Task
 
